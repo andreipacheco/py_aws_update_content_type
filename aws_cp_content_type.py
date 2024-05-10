@@ -66,6 +66,6 @@ def update_content_type(bucket_name, prefix):
         sys.exit(1)
 
 if __name__ == '__main__':
-    bucket_name = 'pesqbrasil-pescadorprofissional-homol'  # Nome do bucket
-    prefix = 'arquivos/'  # Prefixo da pasta
+    bucket_name = 'bucket'  # Nome do bucket
+    prefix = 'pasta/'  # Prefixo da pasta
     update_content_type(bucket_name, prefix)
